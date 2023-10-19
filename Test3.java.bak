@@ -1,0 +1,15 @@
+class Test3
+{
+	void area()
+	{
+		int a=2;
+		int ar=a*a;
+		System.out.println(ar);
+	}
+
+	public static void main(String[] args)
+	{
+		//System.out.println(new Test3().a);
+	 new Test3().area();
+	}
+}

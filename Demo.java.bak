@@ -1,0 +1,19 @@
+class Rectangle
+{
+	void area()
+	{
+		int b=6;
+		int h=5;
+		int res=b*h;
+		System.out.println(res);
+	}
+}
+
+class Demo 
+{
+	public static void main(String[] args) 
+	{
+		Rectangle x =new Rectangle();
+		x.area();
+	}
+}
